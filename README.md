@@ -12,13 +12,13 @@
 identified by PRESENCIAL
 default tablespace USERS;
 
--/*Conceder permisos de Conexion, Creacion de objetos y Consultar diccionario de datos*/
+-/*Conceder todos los permisos al usuario PRESENCIAL*/
 -grant
 ALL privileges
 to PRESENCIAL;
 
 -/*Conceder espacio para insertar datos*/
--/*Se hace con el usuario SYSTEM*/
 -ALTER USER PRESENCIAL quota unlimited on USERS;
 
-- Luego el script que esta en la archivo PRESENCIAL_BD
+-- Conectarse con el usuario PRESENCIAL
+-- Luego el script que esta en la archivo PRESENCIAL-MateCode.sql
