@@ -22,3 +22,5 @@ to PRESENCIAL;
 
 -- Conectarse con el usuario PRESENCIAL
 -- Luego el script que esta en la archivo PRESENCIAL-MateCode.sql
+
+# ¿Como instalar el mini proyecto?
